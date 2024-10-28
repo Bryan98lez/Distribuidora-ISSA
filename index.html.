@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Distribuidora Issa</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Encabezado con el nombre de la empresa y una breve descripción -->
+  <header>
+    <h1>Distribuidora Issa</h1>
+    <p>Su mejor opción en productos de calidad</p>
+  </header>
+
+  <!-- Sección principal con información sobre los productos -->
+  <section id="productos">
+    <h2>Productos</h2>
+    <div class="producto">
+      <img src="img/producto1.jpg" alt="Producto 1">
+      <h3>Producto 1</h3>
+      <p>Descripción breve del producto 1.</p>
+    </div>
+    <div class="producto">
+      <img src="img/producto2.jpg" alt="Producto 2">
+      <h3>Producto 2</h3>
+      <p>Descripción breve del producto 2.</p>
+    </div>
+    <!-- Agrega más productos aquí -->
+  </section>
+
+  <!-- Sección de contacto con formulario -->
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <form>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje
